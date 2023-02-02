@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carts",
+  "info": {
+    "singularName": "cart",
+    "pluralName": "carts",
+    "displayName": "Cart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cart_id": {
+      "type": "uid"
+    },
+    "cart_info": {
+      "type": "json",
+      "required": false
+    },
+    "cart_data": {
+      "type": "json"
+    }
+  }
+}

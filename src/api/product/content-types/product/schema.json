@@ -51,6 +51,19 @@
     "discounted_price": {
       "type": "integer",
       "min": 1
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "sub_cateegory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sub-cateegory.sub-cateegory"
+    },
+    "lol": {
+      "type": "richtext"
     }
   }
 }
